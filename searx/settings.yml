@@ -92,6 +92,9 @@ server:
   # values there.
 
   secret_key: "ultrasecretkey"  # Is overwritten by ${SEARXNG_SECRET}
+  api:
+    enabled: true
+    api_key: "AHGSDFUAA18JDHA817230KJGADHS"
   # Proxy image results through SearXNG. Is overwritten by ${SEARXNG_IMAGE_PROXY}
   image_proxy: false
   # 1.0 and 1.1 are supported
